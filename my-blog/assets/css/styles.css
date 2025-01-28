@@ -1,0 +1,52 @@
+/* Shared styles with pink theme */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+:root {
+    --primary-color: #d81b60; /* Pink */
+    --secondary-color: #f8bbd0; /* Light pink */
+    --highlight-color: #ad1457; /* Deep pink */
+    --text-color: #880e4f; /* Dark pink */
+    --heading-color: #ffffff; /* White for headings */
+    --background-color: #f8bbd0; /* Default light background */
+}
+
+body.dark-mode {
+    --background-color: #880e4f; /* Dark pink background */
+    --text-color: #f8bbd0; /* Light pink text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: var(--heading-color); /* Ensure headings stand out */
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--highlight-color);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
+
+.hidden {
+    display: none;
+}
