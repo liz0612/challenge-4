@@ -1,28 +1,71 @@
-# My Blog 
-Personal Blog Web Application
+# **My Blog App**
 
-Description
+## **📌 Description**
+This is a simple **personal blog application** where users can submit blog posts, view all posts on a separate page, and toggle between **light and dark modes**. The app uses **localStorage** to save blog posts and theme preferences.
 
-This is a two-page web application that allows users to create and view personal blog posts. The application demonstrates the use of JavaScript, DOM manipulation, localStorage, and responsive web design. Users can toggle between light and dark modes and seamlessly navigate between pages to add or view blog posts.
-	•	Blog Page:
-	•	Dynamically displays a list of blog posts stored in localStorage.
-	•	Includes a “Back” button to return to the landing page.
-	•	Persistent light and dark mode.
-    Technologies Used
-	•	HTML: Structure of the application.
-	•	CSS: Styling and layout of pages.
-	•	JavaScript: Interactivity, localStorage, and DOM manipulation.
-	•	GitHub Pages: For deployment.
-    Usage
-	1.	On the landing page:
-	•	Fill out the form with a username, blog title, and content.
-	•	Use the light/dark mode toggle for your preferred appearance.
-	•	Submit the form to save your blog post.
-	2.	On the blog page:
-	•	View all your saved blog posts.
-	•	Use the “Back” button to return to the form
-    screenshots
+---
+
+## **🌐 Live Demo**
+🔗 **[View My Blog App](https://liz0612.github.io/my-blog/)**  
+
+---
+
+## **🎯 Features**
+✅ **Landing Page (index.html)**  
+- Users enter their **name, blog title, and blog content**.  
+- Submit button saves the blog post and redirects to the blog page.  
+- **Light/Dark mode toggle** for improved readability.  
+
+✅ **Blog Page (blog.html)**  
+- Displays **submitted blog posts dynamically**.  
+- Blog posts persist using **localStorage**.  
+- Users can return to the form page using a **Back button**.  
+
+✅ **Additional Features**  
+- **Form validation** prevents empty submissions.  
+- **LocalStorage saves blog data & dark mode settings**.  
+
+---
+
+## **📂 File Structure**
+my-blog
+├── assets
+│   ├── css
+│   │   ├── blog.css        # Blog page styles
+│   │   ├── form.css        # Form page styles
+│   │   └── styles.css      # Global styles
+|   |
+|   └──images
+|	|	├── Screenshot
+|	|	├── Screenshot
+|	|	├── screenshot
+|	|	├── Screenshot
+|   |
+│   └── js
+│       ├── blog.js         # Handles blog post rendering
+│       ├── form.js         # Handles form validation & 
+│       └── logic.js        # Shared logic (if needed)
+├── index.html              # Main form page
+├── blog.html               # Blog display page
+└── README.md               # Project documentation
+---
+
+## **🚀 How to Run the Project Locally**
+### **1️⃣ Clone the Repository**
+```bash
+git clone https://github.com/liz0612/my-blog.git
+cd my-blog
+
 ![image](./assets/images/Screenshot%202025-01-28%20at%202.25.13 PM.png)
 ![image](./assets/images/Screenshot%202025-01-28%20at%202.25.16 PM.png)
 ![image](./assets/images/Screenshot%202025-01-28%20at%202.25.19 PM.png)
 ![image](./assets/images/Screenshot%202025-01-28%20at%202.25.22 PM.png)
+🛠️ Technologies Used
+	•	HTML5, CSS3, JavaScript
+	•	LocalStorage API
+	•	GitHub Pages (Deployment)
+	📌 Future Improvements
+
+🔹 Allow users to edit or delete blog posts.
+🔹 Add a database backend (Node.js, Firebase, or PostgreSQL).
+🔹 Improve UI with animations & transitions.
