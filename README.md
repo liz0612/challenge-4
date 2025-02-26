@@ -52,9 +52,9 @@ my-blog
 
 ## **🚀 How to Run the Project Locally**
 ### **1️⃣ Clone the Repository**
-```bash
+
 git clone https://github.com/liz0612/my-blog.git
-cd my-blog
+cd blog
 
 ![image](./assets/images/Screenshot%202025-01-28%20at%202.25.13 PM.png)
 ![image](./assets/images/Screenshot%202025-01-28%20at%202.25.16 PM.png)
