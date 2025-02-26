@@ -27,7 +27,7 @@ This is a simple **personal blog application** where users can submit blog posts
 
 ---
 
-## **📂 File Structure**
+## File Structure**
 my-blog
 ├── assets
 │   ├── css
