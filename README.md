@@ -22,7 +22,7 @@ This is a two-page web application that allows users to create and view personal
 	•	View all your saved blog posts.
 	•	Use the “Back” button to return to the form
     screenshots
-![image](Screenshot%202025-01-28%20at%202.25.13 PM.png)
-![image](Screenshot%202025-01-28%20at%202.25.16 PM.png)
-![image](Screenshot%202025-01-28%20at%202.25.19 PM.png)
-![image](Screenshot%202025-01-28%20at%202.25.22 PM.png)
+![image](./assets/images/Screenshot%202025-01-28%20at%202.25.13 PM.png)
+![image](./assets/images/Screenshot%202025-01-28%20at%202.25.16 PM.png)
+![image](./assets/images/Screenshot%202025-01-28%20at%202.25.19 PM.png)
+![image](./assets/images/Screenshot%202025-01-28%20at%202.25.22 PM.png)
