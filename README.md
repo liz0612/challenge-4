@@ -30,25 +30,25 @@ This is a simple **personal blog application** where users can submit blog posts
 ## **📂 File Structure**
 my-blog
 ├── assets
-│   ├── css
+│   ├── css                 # Stylesheets
 │   │   ├── blog.css        # Blog page styles
 │   │   ├── form.css        # Form page styles
 │   │   └── styles.css      # Global styles
 │   │
 │   ├── images              # Screenshots for README
-│   │   ├── screenshot-1.png
-│   │   ├── screenshot-2.png
-│   │   ├── screenshot-3.png
-│   │   ├── screenshot-4.png
+│   │   ├── landing-page.png
+│   │   ├── blog-page.png
+│   │   ├── dark-mode.png
+│   │   ├── form-validation.png
 │   │
-│   ├── js
+│   ├── js                  # JavaScript files
 │   │   ├── blog.js         # Handles blog post rendering
 │   │   ├── form.js         # Handles form validation & submission
 │   │   └── logic.js        # Shared logic (if needed)
 │
 ├── index.html              # Main form page
 ├── blog.html               # Blog display page
-└── README.md               # Project 
+└── README.md               # Project documentation
 ---
 
 ## **🚀 How to Run the Project Locally**
