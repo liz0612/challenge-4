@@ -22,20 +22,18 @@ form.addEventListener('submit', function (event) {
     const title = document.getElementById('title').value.trim();
     const content = document.getElementById('content').value.trim();
 
-    // Validate input fields
+    // ✅ FORM VALIDATION - Prevent empty submissions
     if (!username || !title || !content) {
         alert('Please fill out all fields.');
         return;
     }
 
-    // Create a blog post object
+    // ✅ Store blog post in localStorage
     const blogPost = { username, title, content };
-
-    // Save to localStorage
     let blogPosts = JSON.parse(localStorage.getItem('blogPosts')) || [];
     blogPosts.push(blogPost);
     localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
 
-    // Redirect to blog page
+    // ✅ Redirect to blog page after submission
     window.location.href = 'blog.html';
 });
