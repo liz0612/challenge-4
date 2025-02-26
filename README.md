@@ -27,7 +27,7 @@ This is a simple **personal blog application** where users can submit blog posts
 
 ---
 
-📂 File Structure
+## **📂 File Structure**
 my-blog
 ├── assets
 │   ├── css
@@ -36,10 +36,10 @@ my-blog
 │   │   └── styles.css      # Global styles
 │   │
 │   ├── images              # Screenshots for README
-│   │   ├── landing-page.png
-│   │   ├── blog-page.png
-│   │   ├── dark-mode.png
-│   │   ├── form-validation.png
+│   │   ├── screenshot-1.png
+│   │   ├── screenshot-2.png
+│   │   ├── screenshot-3.png
+│   │   ├── screenshot-4.png
 │   │
 │   ├── js
 │   │   ├── blog.js         # Handles blog post rendering
@@ -48,14 +48,14 @@ my-blog
 │
 ├── index.html              # Main form page
 ├── blog.html               # Blog display page
-└── README.md               # Project documentation
+└── README.md               # Project 
 ---
 
 ## **🚀 How to Run the Project Locally**
 ### **1️⃣ Clone the Repository**
 
 git clone https://github.com/liz0612/my-blog.git
-cd blog
+cd my-blog
 
 ![image](./assets/images/Screenshot%202025-01-28%20at%202.25.13 PM.png)
 ![image](./assets/images/Screenshot%202025-01-28%20at%202.25.16 PM.png)
@@ -65,8 +65,3 @@ cd blog
 	•	HTML5, CSS3, JavaScript
 	•	LocalStorage API
 	•	GitHub Pages (Deployment)
-	📌 Future Improvements
-
-🔹 Allow users to edit or delete blog posts.
-🔹 Add a database backend (Node.js, Firebase, or PostgreSQL).
-🔹 Improve UI with animations & transitions.
